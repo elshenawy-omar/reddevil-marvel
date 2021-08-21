@@ -1,0 +1,229 @@
+
+.body{
+    background-color: rgb(0, 0, 0);
+}
+/*===========================navbar===============================*/
+/*.navbar {
+    background-color: red !important;
+}
+button.btn{
+    color: #000000;
+    border-color: #000000;
+}
+
+
+ul.navbar-nav .nav-item {
+    background-color: red !important;
+}
+div.dropdown-menu.shaw{
+    background-color: red;
+
+}
+ul .navbar-nav .mr-auto{
+    background-color: red;
+}
+.navbar-brand{
+    color: black !important;
+    font-weight: 600;
+    font-size: 27px !important;
+}
+
+.nav-link {
+    color: black !important;
+}  */
+
+.navbar-brand {
+    color: black !important;
+}
+
+.navbar-collapse .navbar-nav .nav-item a {
+    color: black !important ;
+    background-color: red !important;
+}
+
+.navbar-toggler-icon {
+    border:1px solid black !important;
+}
+.dropdown-menu {
+    color: red !important;
+    background-color: rgb(0, 0, 0) !important;
+}
+
+
+
+
+
+
+
+
+
+/*=======================================================*/
+/*===================my-carousel=========================*/
+.my-carousel{
+    margin: auto;
+    height:90%;
+    justify-content: center;
+}
+ /*=====================================================**/
+/* ========================= about us ==================*/
+.about-us{
+    margin: 50px auto;
+    background-color: rgb(255, 0, 0);
+}
+.about-head{
+    margin: 20px 0;
+    text-align: center;
+}
+img .about-us{
+    margin: auto;
+}
+/*=======================================================*/
+/*  ===================gallary-===========================*/
+.gallary {
+    width: 100%;
+    height:100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.445);
+    background-color: rgb(0, 0, 0);
+}
+.gallary .nav{
+    justify-content: center;
+    border-bottom: 1px solid rgb(255, 0, 0)
+    margin: 10px auto;
+}
+nav{
+    background-color: rgb(255, 0, 0);
+}
+.nav .nav-tabs{
+   background-color: rgb(255, 0, 0);
+}
+.gallary .nav-item a:hover {
+    color: rgb(255, 0, 0) !important;
+    background-color: rgba(255, 0, 0, 0.541);
+    border: 1px solid rgba(92, 92, 92, 0.445);
+}
+.gallary-img-container .content{
+    padding: 5px 3px;
+}
+.nav-link, .nav-tabs .nav-link{
+    background-color: rgb(255, 0, 0);
+}
+.nav-link, .nav-tabs .nav-link.active{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.gallary-img-container .content:hover{
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+    background-color: rgba(153, 175, 197, 0.472);
+}
+.gallary-img-container .gallary-img {
+    width: 100%;
+    min-height: 100%;
+    padding: 2px;
+    object-fit: contain;
+}
+
+.gallary-img-container img {
+    transition: all 0.2s ease-out;
+}
+
+
+
+.gallary-img-container h4 {
+    margin: 3px;
+    padding: 10px 0 0 0;
+    text-align: center;
+}
+
+.gallary-img-container p {
+    font-size: 12px;
+    margin: 3px;
+    padding: 5px;
+}
+
+.gallary-img-container  .cart-btn {
+    width: 100%;
+    height: 40px;
+    margin: 3px;
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(138, 13, 13);
+}
+
+.gallary-img-container  .cart-btn:hover {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(167, 97, 97);
+    background-image: -webkit-linear-gradient(top, #000000, #ff0000);
+}
+/*==================================================================*/
+/*================================contact us========================*/
+.contact-us{
+    margin: 10px auto;
+    padding: 7px;
+background-color: red;
+}
+.contact-us h1 {
+    text-align: center;
+}
+
+.contact-us .contact-form{
+    margin: 10px;
+    padding: 7px;
+}
+.contact-us .contact-form h4{
+    font-size: 32px;
+}
+
+.contact-us .contact-form .form-btn{
+    width: 100px;
+    height: 30px;
+    border: 0;
+    background-color: rgb(218, 218, 218);
+    transition: all 0.2s ease-out;
+}
+.contact-us .contact-form .form-btn:hover{
+    width: 102px;
+    height: 32px;
+    border: 1px solid rgb(0, 0, 0);
+    background-image: -webkit-linear-gradient(top, #000000, #ff0000);
+}
+
+/*====================================================================*/
+/*================== Footer ==========================================*/
+footer{
+    margin: 10px auto 0;
+    padding: 15px 0 0 0;
+    background-color: rgb(0, 0, 0);
+}
+footer h4 {
+    font-size: 20px;
+    color: rgb(55, 0, 255);
+}
+footer .footer-about p{
+    color: rgb(255, 0, 0);
+}
+footer ul {
+    list-style: none;
+}
+footer ul li a {
+    color: rgb(255, 5, 5);
+    text-decoration: none !important;
+}
+footer ul li a:hover {
+    font-size: 18px;
+    color: rgb(255, 0, 0);
+    text-decoration: none !important;
+}
+
+footer .footer-hr{
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+}
+.copyright-text{
+   color: red;
+}
+footer a{
+    color: rgb(17, 0, 255);
+}
+/*=======================================================================*/
